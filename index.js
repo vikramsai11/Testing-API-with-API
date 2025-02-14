@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const bodyParser = require('body-parser');
 const app = express();
-app.use(bodyParser.json());
+app.use(bodyParser.json());  
 
 // Path to the data file
 const dataFilePath = path.join(__dirname, 'data.json');
